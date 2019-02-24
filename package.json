@@ -1,0 +1,30 @@
+{
+  "name": "pixi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/game.ts",
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "dev:wx": "webpack --mode=development --env.wx --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/pixi.js": "^4.8.6",
+    "@types/weixin-app": "^2.2.24",
+    "babel-core": "^6.0.0",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.7.0",
+    "copy-webpack-plugin": "^5.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.2.4",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "dependencies": {
+    "pixi.js": "^4.8.5"
+  }
+}
